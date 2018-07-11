@@ -1,0 +1,25 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#cursors {
+    position: relative;
+}
+
+.cursor {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+}
+
+canvas {
+    background: #ddd;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
